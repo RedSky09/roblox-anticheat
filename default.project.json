@@ -5,19 +5,28 @@
 
     "ReplicatedStorage": {
       "$className": "ReplicatedStorage",
-      "$path": "src/shared"
+      "AntiCheat": {
+        "$path": "src/shared"
+      }
     },
 
     "ServerScriptService": {
       "$className": "ServerScriptService",
-      "$path": "src/server"
+      "AntiCheat": {
+        "$path": "src/server"
+      }
     },
 
     "StarterPlayer": {
+      "$className": "StarterPlayer",
       "StarterPlayerScripts": {
-        "$path": "src/client"
+        "$className": "StarterPlayerScripts",
+        "AntiCheat": {
+          "$path": "src/client"
+        }
       }
     },
+
     "Lighting": {
       "$className": "Lighting",
       "$properties": {
@@ -28,6 +37,7 @@
         "Technology": "Voxel"
       }
     },
+
     "SoundService": {
       "$className": "SoundService",
       "$properties": {
