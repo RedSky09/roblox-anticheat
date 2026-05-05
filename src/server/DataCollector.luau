@@ -5,7 +5,7 @@
 
 local Players      = game:GetService("Players")
 local RunService   = game:GetService("RunService")
-local Config       = require(game.ReplicatedStorage.Shared.AntiCheat.AntiCheatConfig)
+local Config       = require(game.ReplicatedStorage.AntiCheat.AntiCheatConfig)
 
 -- ── Storage ──────────────────────────────────────────────────────────────────
 local dataLog      = {}   -- semua baris data
